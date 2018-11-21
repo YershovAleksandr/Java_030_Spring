@@ -31,7 +31,7 @@ public class Application {
 
     @Bean
     MessageListenerAdapter listenerAdapter(Receiver receiver){
-        return new MessageListenerAdapter(receiver, "receiverMessage");
+        return new MessageListenerAdapter(receiver, "receiveMessage");
     }
 
     @Bean
